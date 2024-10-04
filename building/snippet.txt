@@ -1,0 +1,14 @@
+<model-viewer src="building.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-1.8108753518713743m 2.388301749920559m 0.021612237429992284m" data-normal="-0.012895717608157846m 0.017176591606429738m 0.9997693059742115m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">小屋</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
